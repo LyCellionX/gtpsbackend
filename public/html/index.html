@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgba(0, 0, 0, 0); width: 100%; height: 100%">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Growtopia Dashboard</title>
+    <link
+        rel="icon"
+        type="image/png"
+        href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/growtopia.ico"
+        sizes="16x16"
+    />
+    <link
+        rel="shortcut icon"
+        href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/growtopia.ico"
+        type="image/x-icon"
+    />
+    <link
+        rel="icon"
+        href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/images/growtopia.ico"
+        type="image/x-icon"
+    />
+    <link
+        media="all"
+        rel="stylesheet"
+        href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/css/faq-main.css"
+    />
+    <link
+        media="all"
+        rel="stylesheet"
+        href="https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/website/resources/assets/css/shop-custom.css"
+    />
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+        }
+        .grow-button {
+            display: block;
+            width: 200px;
+            margin: 15px auto;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .grow-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to Growtopia</h2>
+        <button
+            class="grow-button"
+            onclick="window.location.href='dashboard.html'"
+        >
+            Login
+        </button>
+        <button
+            class="grow-button"
+            onclick="window.location.href='/player/validate/close'"
+        >
+            Already/Create Account
+        </button>
+    </div>
+</body>
+</html>
